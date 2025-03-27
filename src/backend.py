@@ -11,7 +11,7 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 
 @app.route("/")
 def home():
-    return render_template("aavz.html")  
+    return render_template("App.jsx")  
 
 @app.route('/chat', methods=['POST'])
 def chat():
