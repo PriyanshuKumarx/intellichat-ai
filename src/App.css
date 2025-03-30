@@ -1,14 +1,12 @@
-/* App.css */
+
 :root {
-  /* Light Mode Colors */
   --primary-light: #6C43F5;
   --secondary-light: #4A90E2;
   --text-light: #2D3748;
   --bg-light: #F8FAFF;
   --chat-bg-light: rgba(248, 250, 255, 0.98);
   --border-light: #E2E8F0;
-  
-  /* Dark Mode Colors */
+
   --primary-dark: #6C43F5;
   --secondary-dark: #4A90E2;
   --text-dark: #E2E8F0;
@@ -16,7 +14,6 @@
   --chat-bg-dark: rgba(15, 23, 42, 0.98);
   --border-dark: rgba(108, 67, 245, 0.3);
 
-  /* Common */
   --accent-gradient: linear-gradient(135deg, #6C43F5 0%, #4A90E2 100%);
   --shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.25);
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -46,7 +43,7 @@
   transition: var(--transition);
 }
 
-/* Light Mode Styles */
+
 .app-container:not(.dark) {
   background: var(--bg-light);
 }
@@ -95,7 +92,7 @@
   color: rgba(45, 55, 72, 0.7);
 }
 
-/* Dark Mode Styles */
+
 .app-container.dark {
   background: var(--bg-dark);
 }
@@ -144,7 +141,7 @@
   color: rgba(226, 232, 240, 0.7);
 }
 
-/* Common Styles */
+
 .ai-background {
   position: fixed;
   top: 0;
